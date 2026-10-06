@@ -427,3 +427,11 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# --- Travel & Meetings Planner app ---
+.venv/
+node_modules/
+frontend/.vite/
+.databricks/
+.DS_Store
+# Keep frontend/dist for deployment — do NOT ignore it
